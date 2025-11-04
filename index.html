@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Лабораторна робота №9</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Гра «21»</h2>
+
+<div class="game">
+<div class="player">
+<h3 id="userName">User:</h3>
+<span id="userScore">0</span>
+<img id="userCard" class="card" src="cards/back.png" alt="card">
+</div>
+
+<div class="controls">
+<button id="generate">Generate</button>
+<div id="tries">Спроба 0 з 3</div>
+</div>
+
+<div class="player">
+<h3>Комп’ютер:</h3>
+<span id="compScore">0</span>
+<img id="compCard" class="card" src="cards/back.png" alt="card">
+</div>
+</div>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
