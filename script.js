@@ -1,13 +1,13 @@
 const cards = [
-  { name: "6", value: 6, img: "cards/6.png" },
-  { name: "7", value: 7, img: "cards/7.png" },
-  { name: "8", value: 8, img: "cards/8.png" },
-  { name: "9", value: 9, img: "cards/9.png" },
-  { name: "10", value: 10, img: "cards/10.png" },
-  { name: "В", value: 2, img: "cards/jack.png" },
-  { name: "Д", value: 3, img: "cards/queen.png" },
-  { name: "К", value: 4, img: "cards/king.png" },
-  { name: "Т", value: 11, img: "cards/ace.png" }
+  { name: "6", value: 6, img: "6.png" },
+  { name: "7", value: 7, img: "7.png" },
+  { name: "8", value: 8, img: "8.png" },
+  { name: "9", value: 9, img: "9.png" },
+  { name: "10", value: 10, img: "10.png" },
+  { name: "В", value: 2, img: "jack.png" },
+  { name: "Д", value: 3, img: "queen.png" },
+  { name: "К", value: 4, img: "king.png" },
+  { name: "Т", value: 11, img: "ace.png" }
 ];
 
 let userTotal = 0, compTotal = 0, rounds = 0;
